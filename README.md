@@ -2,6 +2,8 @@
 
 This is a [Cog](https://github.com/replicate/cog) model that provides high-quality text-to-speech synthesis using the Orpheus model with SNAC audio generation.
 
+- [x] Cog Fast Push Compatible
+
 ## Model Description
 
 Orpheus is a text-to-speech model that generates natural-sounding speech from text input. It supports multiple voices and provides various parameters to control the generation process.
