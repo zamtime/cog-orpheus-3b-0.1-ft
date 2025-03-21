@@ -118,7 +118,7 @@ class Predictor(BasePredictor):
         temperature: float = Input(description="Temperature for generation", default=0.6, ge=0.1, le=1.5),
         top_p: float = Input(description="Top P for nucleus sampling", default=0.95, ge=0.1, le=1.0),
         repetition_penalty: float = Input(description="Repetition penalty", default=1.1, ge=1.0, le=2.0),
-        max_new_tokens: int = Input(description="Maximum number of tokens to generate", default=1200, ge=100, le=2000)
+        max_new_tokens: int = Input(description="Maximum number of tokens to generate", default=1200, ge=100, le=20000)
     ) -> Path:
         """Generate speech from text using Orpheus TTS model"""
         
